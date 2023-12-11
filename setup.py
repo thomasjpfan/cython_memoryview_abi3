@@ -2,7 +2,6 @@ from setuptools import setup, Extension
 
 MIN_PYTHON_VERSION = "3.11"
 PY_LIMITED_API = "0x030b00f0"
-CPYTHON_TAG = f"cp{MIN_PYTHON_VERSION.replace('.', '')}"
 
 extensions = [
     Extension(
