@@ -17,8 +17,6 @@ extensions = [
 
 
 setup(
-    name="adder",
-    packages=["adder"],
     ext_modules=extensions,
     python_requires=f">={MIN_PYTHON_VERSION}",
 )
