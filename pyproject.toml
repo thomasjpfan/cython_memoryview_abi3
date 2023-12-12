@@ -2,7 +2,7 @@
 requires = [
     "setuptools",
     "setuptools-scm",
-    "git+https://github.com/cython/cython",
+    "Cython @ git+https://github.com/cython/cython.git@master",
 ]
 build-backend = "setuptools.build_meta"
 
